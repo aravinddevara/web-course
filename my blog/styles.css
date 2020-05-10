@@ -1,6 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body{
     font-family: Helvetica,Arial, sans-serif;
     font-size: 16px;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-content{
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+.blog-post img{
+    width: auto;
+    height: 100px;
+    display: block;
+    margin:auto;
+   
+
+}
+.blog-post{
+    width: 75%;
+    float: left;
+    padding-right: 20px;
+    position: relative;
+}
+
+.date{
+    position: absolute;
+    top:0;
+    right:0;
+    padding-right: 20px;
+}
+
+.other-posts{
+    margin-top: 80px;
+
+    width: 25%;
+    float: left;
+}
+.author{
+    margin-top:20px;
+    border-top: 1px solid #808080;
+    padding-top: 20px;
+}
+
+.author-name{
+    margin-top: 35px;
+    margin-left: 5px;
+    float: left;
+}
+
+.other{
+    margin-bottom: 40px;
+}
+
+.author img{
+    border-radius: 50%;
+    float: left;
+
 }
 
 h1 , h2{
@@ -9,16 +78,25 @@ h1 , h2{
 h1 {
 text-align: center;
 font-size: 40px;
+margin-bottom: 10px;
 
+}
+img{
+ margin-bottom: 10px;
 }
 
 h2{
     font-size: 25px;
+    margin-bottom: 20px;
 }
 
+a{
+    margin-bottom:10px ;
+}
 p{
     
     text-align: justify;
+margin-bottom: 10px;
   
 }
 
@@ -27,6 +105,6 @@ p{
 }
 
 .author-name{
-    font-size: 20px;;
+    font-size: 20px;
 }
 
