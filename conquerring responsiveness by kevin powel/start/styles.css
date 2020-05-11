@@ -1,0 +1,17 @@
+*{
+box-sizing: border-box;
+}
+
+.parent{
+ background-color: blue;   
+ padding:50px;
+ width:80%;
+ /* width:800px;*/
+ margin:0 auto; 
+
+}
+
+.child{
+    background-color: chartreuse;
+    height:250px
+}
